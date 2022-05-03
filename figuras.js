@@ -42,6 +42,9 @@ function trianguleArea(TrianguleBase, TrianguleHigh){
 //console.log('The Triangule area is:' + trianguleArea + 'cm^2')
 console.groupEnd('Triangule')
 
+
+
+
 //Circle code
 console.group('Circle')
 

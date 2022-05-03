@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="figures.js"></script>
+    <link rel="stylesheet" href="figures.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main-container">
+            <header>
+                <h1>
+                    Geometric Figures
+                </h1>
+                <p>This is my first workshop on javasricpt</p>
+            </header>
+    
+        <form action="">
+            <div class="Square-Container">
+                <h2>
+                    Square
+                </h2>
+                    <label for="input" class="text-square">
+                        Escribe cuanto mide cada lado del cuadrado
+                    </label>
+                <input id="InputSquare" class="input" type="number">
+                <button type="button" onclick="calculateSquarePerimeter()">Calculate Perimeter</button>
+                <button type="button" onclick="calculateSquareArea()">Calculate Area</button>
+            </div>
+            <div class="TrianguleContainer">
+                <h2>Trinagule</h2>
+                <p>Use side one, side two and the base for the perimeter<br> Use the base and the height for the area</p> 
+                <input id="TrinaguleInOne" class="TrinaguleInOne" type="number" placeholder="Side One">
+                <input id="TrinaguleInTwo" class="TrinaguleInTwo" type="number" placeholder="Side Two">
+                <input id="TrinaguleInBase" class="TrinaguleInBase" type="number" placeholder="Base">
+                <input id="TrinaguleInHeight" class="TrinaguleInHeight" type="number" placeholder="Height">
+                <button type="button" onclick="calculatetriangulePerimeter()">Calculate Perimeter</button>
+                <button type="button" onclick="calculatetrianguleArea()">Calculate Area</button>
+                <label for="input" class="input">
+            </div>
+            <div class="CircleContainer">
+                <h2>Circle</h2>
+                <p>Put you radio</p>
+                <input id="radio" class="radio" type="number" placeholder="radio">
+                <button type="button" onclick="calculateCirclePerimeter()">Calculate Perimeter</button>
+                <button type="button" onclick="calculateCircleDiameter()">Calculate Diameter</button>
+                <button type="button" onclick="calculateCircleCircunference()">Calculate Circunference</button>
+                <button type="button" onclick="calculateCircleArea()">Calculate Area</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
